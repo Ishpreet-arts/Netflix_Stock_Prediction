@@ -1,12 +1,8 @@
 streamlit
+scikit-learn
 pandas
 numpy
 matplotlib
-scikit-learn
 langchain
-langchain-core
-langchain-community
 langchain-openai
 openai
-python-dotenv
-requests
