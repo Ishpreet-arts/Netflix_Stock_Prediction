@@ -3,4 +3,7 @@ pandas
 numpy
 matplotlib
 scikit-learn
-yfinance
+langchain
+langchain-community
+openai
+python-dotenv
