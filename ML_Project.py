@@ -123,6 +123,8 @@ with tab2:
 
         if prompt:
             with st.spinner("Thinking..."):
-                response = llm.predict_messages([HumanMessage(content=prompt)])
+                #response = llm.predict_messages([HumanMessage(content=prompt)])
+                response = llm.invoke([HumanMessage(content=prompt)])
+
                 st.success("Response:")
                 st.write(response.content)
