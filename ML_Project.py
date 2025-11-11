@@ -10,7 +10,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage
+#from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 
 # Load and clean data
 df = pd.read_csv("Netflix_stock_data.csv")
